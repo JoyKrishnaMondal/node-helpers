@@ -57,6 +57,28 @@ CopyDefaults = (Default,UserSpecific,type = "merge-right")->
 	UserSpecific
 
 
+isObject = (x) -> 
+
+	if typeof x is "object" and not Array.isArray x
+
+		return true
+
+	else
+
+		return false
+
+isArray = (x) -> 
+
+	if typeof x is "object" and Array.isArray x
+
+		return true
+
+	else
+
+		return false
+
 module.exports =
 	*ShowList:ShowList
 		CopyDefaults:CopyDefaults
+		isArray:isArray
+		isObject:isObject
