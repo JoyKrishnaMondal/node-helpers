@@ -1,4 +1,3 @@
-
 ShowList = (List) -> console.log JSON.stringify List,null,"\t"
 
 
@@ -82,3 +81,5 @@ module.exports =
 		CopyDefaults:CopyDefaults
 		isArray:isArray
 		isObject:isObject
+		minDefault:require "./mindefault.js"
+
