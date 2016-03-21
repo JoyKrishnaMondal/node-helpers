@@ -36,5 +36,5 @@
     }
     return UserInput;
   };
-  module['export'] = DefaultFn;
+  module.exports = DefaultFn;
 }).call(this);
