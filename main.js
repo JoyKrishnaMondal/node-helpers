@@ -69,6 +69,6 @@
     CopyDefaults: CopyDefaults,
     isArray: isArray,
     isObject: isObject,
-    minDefault: require("./mindefault.js")
+    minDefaults: require("./mindefault.js")
   };
 }).call(this);
