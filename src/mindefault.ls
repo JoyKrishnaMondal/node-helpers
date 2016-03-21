@@ -34,4 +34,4 @@ DefaultFn = (UserInput,DefaultType) ->
 
 	UserInput
 
-module.export = DefaultFn
+module.exports = DefaultFn
